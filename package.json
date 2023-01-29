@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .ts,.js,.vue ."
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^33.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "nuxt": "^3.1.0",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "firebase": "^9.16.0",
+    "firebase-tools": "^11.21.0",
+    "gsap": "^3.11.4",
+    "sass": "^1.57.1",
+    "swiper": "^8.4.6"
+  },
+  "name": "sungpofo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
